@@ -31,6 +31,7 @@ class _SecondPageState extends State<SecondPage> {
             Expanded(
               child: ListView.builder(
                 itemCount: items.length,
+                padding: const EdgeInsets.only(top: 100.0),
                 itemBuilder: (context, index) {
                   return items[index];
                 },
