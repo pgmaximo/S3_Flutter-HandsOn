@@ -11,7 +11,7 @@ class ItemLista extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          border: Border.all(color: Colors.red),
+          border: Border.all(color: Colors.redAccent),
           borderRadius: BorderRadius.circular(20)),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
