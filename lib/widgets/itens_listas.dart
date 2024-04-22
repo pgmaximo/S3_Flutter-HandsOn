@@ -18,7 +18,7 @@ class ItemLista extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text('Item ${contador.toString()}'),
-            const Icon(Icons.delete),
+            const Icon(Icons.delete, color: Colors.red),
           ],
         ),
       ),
